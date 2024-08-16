@@ -1,5 +1,5 @@
 {
-  "name": "Cards Stack",
+  "name": "cards-stack",
   "version": "1.0.0",
   "main": "src/index.tsx",
   "description": "Animating a stack of cards with @use-gesture/react's useDrag hook, useSprings and interpolation",
@@ -11,9 +11,10 @@
     "interpolation"
   ],
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@react-spring/web": "*",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-use-gesture": "9.1.3"
   },
